@@ -21,8 +21,8 @@ def print_bill(self):
     total_price = 0
     for x in range(self.p):
         q=int(input("Enter the quantify for the product code %d : "%self.__prod_code[x]))
-    self.__prod_quant.append(q)
-    total_price = total_price +self.__cost_price[x]*self.__prod_quant[x]
+   self.__prod_quant.append(q)
+total_price = total_price +self.__cost_price[x]*self.__prod_quant[x]
 print(" Invoice Receipt ")
 print("-----------------------------------------------------------------------------")
 print("Product Code\t Product Name\t Cost Price\t Quantity \t Total Amount")
