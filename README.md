@@ -1,3 +1,3 @@
 # TN-CS-ErrorCorrections
 
-Corrections made are for a particular book about Python Programming. 
+Corrections made for a particular book about Python Programming. 
